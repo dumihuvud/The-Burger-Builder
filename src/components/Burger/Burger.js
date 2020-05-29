@@ -2,7 +2,7 @@ import React from 'react'
 import classes from '../Burger/Burger.module.css'
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient'
 
-const Burger = (props) => {
+const burger = (props) => {
 	// Burger logic.
 
 	// 1) Check the props and createa a components out of it.
@@ -27,4 +27,4 @@ const Burger = (props) => {
 	)
 }
 
-export default Burger
+export default burger
