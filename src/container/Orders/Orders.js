@@ -3,7 +3,6 @@ import axios from '../../axios-orders'
 
 import Order from '../../components/Order/Order'
 import withErrorHadnler from '../../hoc/withErrorHandler/withErrorHandler'
-import order from '../../components/Order/Order'
 
 class Orders extends Component {
 	state = {
